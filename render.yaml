@@ -5,7 +5,7 @@ services:
     repo: https://github.com/alphaluna21/RIMKUS-V2
     branch: main
     buildCommand: cd Archive && npm install
-    startCommand: cd Archive && node index.js  # Replace with your actual start file if needed
+    startCommand: cd Archive && npm start
     envVars:
       - key: NODE_VERSION
         value: 20.18.1
